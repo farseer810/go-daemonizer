@@ -2,7 +2,7 @@
 
 go-daemonizer is tool for daemonizing go server application. The underlying OS api is unix/linux fork, which means that this tool only works on unix-like systems(not on Windows). 
 
-This project is created for the purpose of upgrading server application gracefully, though only achieve part of it. I was planning to add signal control to make it enable to quit, restart, upgrade gracefully, as nginx does. I then choose the ability of later extension instead of make this project specific purpose. If you really do want the other funtionalities, all you have to do is to add signal control.
+This project is created for the purpose of upgrading server application gracefully, though only achieve part of it. I was planning to add signal control to make it enable to quit, restart, upgrade gracefully, as nginx does. I then choose the ability of later extension instead of making this project specific purpose. If you really do want the other funtionalities, all you have to do is to add signal control.
 
 ## Getting Started
 
